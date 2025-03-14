@@ -38,6 +38,10 @@ button {
   border-style: none;
 }
 
+address {
+  font-style: normal;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -122,6 +126,7 @@ header a {
   background: none;
   border: 1px solid #ff6c00;
   padding: 12px 20px;
+  cursor: pointer;
 }
 
 .button-booking:hover,
@@ -226,4 +231,60 @@ a:focus {
 
 #button-about {
   color: #303030;
+}
+
+/* PRICE */
+
+.section-price {
+  background-image: url(/images/price.jpg);
+  color: #fff;
+  background-size: cover;
+}
+
+.container-price {
+  padding: 120px 0;
+}
+
+.title-price {
+  color: #fff;
+  margin-bottom: 44px;
+}
+
+.price-box {
+  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+}
+
+.price-box-second {
+  background: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
+}
+
+.price-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  color: #9da4bd;
+  margin-bottom: 44px;
+}
+
+.price-box,
+.price-box-second {
+  width: calc((100% - 30px) / 2);
+  padding: 30px 20px;
+}
+
+.price-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button-price {
+  display: block;
+  margin: 0 auto;
 }
