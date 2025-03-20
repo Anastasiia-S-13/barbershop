@@ -7,8 +7,10 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,600;1,75..100,600&family=Raleway:ital,wght@0,700;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,700;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -28,10 +30,10 @@
                 <div class="header-menu">
                     <nav>
                         <ul class="navigation-list">
-                            <li><a href="">About</a></li>
-                            <li><a href="">Services and prices</a></li>
-                            <li><a href="">Barbers</a></li>
-                            <li><a href="">Contacts</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#price">Services and prices</a></li>
+                            <li><a href="#barbers">Barbers</a></li>
+                            <li><a href="#contact">Contacts</a></li>
                         </ul>
                     </nav>
                     <div class="booking">
@@ -53,7 +55,7 @@
     </header>
     <main>
         <!-- ABOUT -->
-        <section>
+        <section id="about">
             <div class="container container-about">
                 <img src="./images/about-1.jpg" alt="" width="270">
                 <img src="./images/about-2.jpg" alt="" width="270">
@@ -77,7 +79,7 @@
             </div>
         </section>
         <!-- PRICE -->
-        <section class="section-price">
+        <section class="section-price" id="price">
             <div class="container container-price">
                 <span class="subtitle"><span class="decor-title"></span>Spend your time with the best masters</span>
                 <h2 class="section-title title-price">Services and prices</h2>
@@ -168,7 +170,7 @@
             </div>
         </section>
         <!-- BARBERS -->
-        <section class="barbers-section">
+        <section class="barbers-section" id="barbers">
             <div class="container container-barbers">
                 <span class="subtitle subtitle-section"><span class="decor-title decor-section"></span>For true enjoyers
                     of the
@@ -226,9 +228,9 @@
             </div>
         </section>
         <!-- FORM -->
-        <section class="section-form">
+        <section class="section-form" id="contact">
             <div class="form-container">
-                <div class="form-item form-box">
+                <div class="form-item-box form-box">
                     <div class="form-box-container">
                         <h2 class="section-title title-form">Online-booking</h2>
                         <form action="/" method="get">
@@ -250,15 +252,15 @@
                         </form>
                     </div>
                 </div>
-                <div class="form-item address-box">
+                <div class="form-item-box address-box">
                     <div class="address-box-container">
                         <h2 class="section-title title-form">Contacts</h2>
-                        <address class="address">
+                        <address class="address-form">
                             <ul class="address-list">
-                                <li><a href="/" class="address-item address-item-maps">st. Vasilkivska, 7A
+                                <li class="address-item address-item-maps"><a href="/">st. Vasilkivska, 7A <br>
                                         Kyiv, 08132</a></li>
-                                <li><a href="tel:+380441111111" class="address-item">+38 044 111 11 11</a></li>
-                                <li><a href="mailto:barbershop@email.com" class="address-item">barbershop@email.com</a>
+                                <li class="address-item"><a href="tel:+380441111111">+38 044 111 11 11</a></li>
+                                <li class="address-item"><a href="mailto:barbershop@email.com">barbershop@email.com</a>
                                 </li>
                             </ul>
                         </address>
